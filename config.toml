@@ -1,3 +1,21 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Blog about everything"
+enableEmoji = true
+theme = "hugo-theme-monochrome"
+defaultContentLanguage = "en"
+
+[params]
+  description = "This is my private blog about work, about hobbies and coffee"
+  images = ['site-feature-image.jpg']
+  title = 'My cool site'
+  enable_site_search = true
+  enable_open_graph = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = 'series'
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

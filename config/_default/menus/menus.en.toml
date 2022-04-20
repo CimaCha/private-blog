@@ -1,0 +1,33 @@
+[[navbar]]
+  identifier = "about"
+  name = "About author"
+  url = "/about/"
+  weight = 1
+[[navbar]]
+  identifier = "hobby"
+  name = "My hobbies"
+  url = "/hobby/"
+  weight = 2
+  [[navbar]]
+    identifier = "warhammer_hobby"
+    name = "Warhammer"
+    url = "/hobby/warhammer"
+    parent = "hobby"
+    weight = 1
+    [[navbar]]
+      identifier = "ts_army"
+      name = "Thousand Sons Army"
+      url = "/hobby/warhammer/ts"
+      parent = "warhammer_hobby"
+      weight = 1
+    [[navbar]]
+      identifier = "csm_army"
+      name = "Chaos Space Marines Army"
+      url = "/hobby/warhammer/csm"
+      parent = "warhammer_hobby"
+      weight = 2
+[[navbar]]
+  identifier = "coffee"
+  name = "Coffee that I've tasted"
+  url = "/coffee/"
+  weight = 1
